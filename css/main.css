@@ -1,0 +1,46 @@
+/* universal slector*/
+*{
+	font-family: 'Noto Serif', serif;
+padding: 0;
+margin:0;
+outline: none;
+}
+.results {
+	background-image: url("..//img/background.jpg")
+
+}
+.jumbotron {
+text-align: center;
+}
+h1 {
+	font-size: 30px;
+	font-weight:700;
+	font-style: italic;
+}
+label{
+	font-size: 22px;
+	margin: 15px 0;
+}
+input {
+text-align: center;
+margin: 20px 0;
+}
+#userdata {
+	padding: 10px;
+}
+
+
+#planetName{
+	color: orangered;
+	font-weight: 800;
+	text-transform: uppercase;
+}
+#info{
+	color:black;
+	font-size: 20px;
+}
+#photo {
+	height:300px;
+	width: 300px;
+	border-radius: 150px;
+}
