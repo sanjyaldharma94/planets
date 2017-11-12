@@ -106,6 +106,6 @@ return;
   //if no match is found, do opposite of the function stated above
   document.getElementById("planetName").textContent = "No Planet Found. Try again";
   document.getElementById("info").textContent = "";
-  document.getElementById("photo").src = "";
+  document.getElementById("photo").src = "img/galaxy.jpg";
  };
 };
