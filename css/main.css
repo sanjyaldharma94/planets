@@ -5,15 +5,10 @@ padding: 0;
 margin:0;
 outline: none;
 }
-.results {
-	background-image: url("..//img/background.jpg")
 
-}
-.jumbotron {
-text-align: center;
-}
 h1 {
-	font-size: 30px;
+	text-align:center;
+	font-size: 36px;
 	font-weight:700;
 	font-style: italic;
 }
@@ -22,7 +17,6 @@ label{
 	margin: 15px 0;
 }
 input {
-text-align: center;
 margin: 20px 0;
 }
 #userdata {
@@ -44,3 +38,6 @@ margin: 20px 0;
 	width: 300px;
 	border-radius: 150px;
 }
+.results {
+	background-image: url("..//img/background.jpg")
+

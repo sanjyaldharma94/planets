@@ -68,7 +68,7 @@ var planets = [
 	   Saturn is a gas giant and is composed of similar gasses including\
 	    hydrogen, helium and methane."
 }
-]
+];
 //setting up a function to get the users input and save in the console
 function getInfo() {
  var userInput = document.getElementById('userdata').value;
@@ -85,11 +85,11 @@ function getInfo() {
   	//to confirm if statement ran
   	console.log("if statement ran");
 
-  	//to check some of the values in the console before updating HTML
+  /*	//to check some of the values in the console before updating HTML
   	console.log("users typed in: " + userInput);
   	console.log("current image is: " + planets[i].image);
   	console.log("current info value is: " + planets[i].about);
-
+*/
 // to get the element with id="planetName"
 document.getElementById("planetName").textContent = userInput;
 
