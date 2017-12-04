@@ -35,9 +35,9 @@ margin: 20px 0;
 }
 #photo {
 	height:300px;
-	width: 300px;
+	width: 500px;
 	border-radius: 150px;
 }
-.results {
+/*.results {
 	background-image: url("..//img/background.jpg")
-
+}*/
