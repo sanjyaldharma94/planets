@@ -1,3 +1,13 @@
+
+//Arrow function to be used when the document loads
+$(document).ready(() => {
+
+$('#buyBtn1').on('submit', (e) =>{
+  let info  = $('#userdata').val();
+  getInfo(info);
+  e.preventDefault();
+});
+});
 //creating objexts needed for the webpage
 var planets = [
 {
@@ -72,20 +82,20 @@ var planets = [
 //setting up a function to get the users input and save in the console
 function getInfo() {
  var userInput = document.getElementById('userdata').value;
- console.log(userInput);
- console.log("users value is: " + userInput);
+ //console.log(userInput);
+ //console.log("users value is: " + userInput);
   // setting up a for loop to call the data
   for(var i = 0; i < planets.length; i = i + 1) {
   	//equalizing the user input value with the computer language
-  	console.log("users value lowercase is: " + userInput.toLowerCase());
+  	//console.log("users value lowercase is: " + userInput.toLowerCase());
  //printing the value of users input command
-   console.log("current planet in the loop is: " + planets[i].name);
+   //console.log("current planet in the loop is: " + planets[i].name);
   //creating a if statement to compare
   if(userdata.value.toLowerCase() === planets[i].name) {
-  	//to confirm if statement ran
+  /*	//to confirm if statement ran
   	console.log("if statement ran");
 
-  /*	//to check some of the values in the console before updating HTML
+  	//to check some of the values in the console before updating HTML
   	console.log("users typed in: " + userInput);
   	console.log("current image is: " + planets[i].image);
   	console.log("current info value is: " + planets[i].about);
@@ -102,7 +112,7 @@ document.getElementById("info").textContent = planets[i].about;
 return;
   } 
  //to confirm when no match is found
-  console.log("no matches were found,user failed to type in correct planet name");
+ // console.log("no matches were found,user failed to type in correct planet name");
   //if no match is found, do opposite of the function stated above
   document.getElementById("planetName").textContent = "No Planet Found. Try again";
   document.getElementById("info").textContent = "";
